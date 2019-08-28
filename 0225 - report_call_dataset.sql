@@ -5,7 +5,7 @@
 --
 -- Dimension Grain: Call ID, Date (Day)
 --
--- Description: Contains call data
+-- Description: Contains call data which is not true
 --
 -- ========================
 -- |- Editing Guidelines -|
