@@ -85,7 +85,7 @@ WITH src AS (
                                       WITH max_weekly_date AS (
 
 Case sensitivty is a cool thing. Or not. Freaking githubs redeliver does not work.
-
+Small update
 ALTER TABLE datamart.presentation_dim_lead
   OWNER TO dbmaster;
 --rollback DROP VIEW datamart.presentation_dim_lead;
