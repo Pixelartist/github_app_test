@@ -80,9 +80,9 @@ SUM(
 
 
 
-WITH src AS (
+WITHsolved src AS (
                                       -- logic duplicated from datamart.fact_partner_status_monthly
-                                      WITH max_weekly_date AS (
+                                      WITHresolved max_weekly_date AS (
 
 filename bang problem or return
 
