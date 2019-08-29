@@ -6,6 +6,9 @@
 -- Dimension Grain: Call ID, Date (Day)
 --
 -- Description: Contains call data which is not true
+-- This is shit. Fucking piece does not work.
+-- another shit comment fuck wtf WTF
+-- interesting wtf shit
 --
 -- ========================
 -- |- Editing Guidelines -|
