@@ -79,7 +79,7 @@ SUM(
                               ROWS BETWEEN 30 PRECEDING AND CURRENT ROW) -
                             SUM(master_fad."Days to First Appointment (FAD)")                    AS "Days to First Appointment (FAD) (Rolling L30D/d)",
 changed the space
-
+OVER (PARTITION BY
 
 WITHsolved src AS (
                                       -- logic duplicated from datamart.fact_partner_status_monthly
