@@ -80,7 +80,7 @@ SUM(
                             SUM(master_fad."Days to First Appointment (FAD)")                    AS "Days to First Appointment (FAD) (Rolling L30D/d)",
 changed the space
 OVER (PARTITION BY
-
+PARTITION BY
 WITHsolved src AS (
                                       -- logic duplicated from datamart.fact_partner_status_monthly
                                       WITHresolved max_weekly_date AS (
