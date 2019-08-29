@@ -77,7 +77,7 @@ SUM(
                               master_fad."Days to First Appointment (FAD)") OVER (PARTITION BY "Country", "Type" ORDER BY "Date" ASC
                               ROWS BETWEEN 30 PRECEDING AND CURRENT ROW) -
                             SUM(master_fad."Days to First Appointment (FAD)")                    AS "Days to First Appointment (FAD) (Rolling L30D/d)",
-
+changed the space
 
 
 WITHsolved src AS (
