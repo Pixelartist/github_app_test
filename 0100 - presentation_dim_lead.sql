@@ -84,7 +84,7 @@ WITH src AS (
                                       -- logic duplicated from datamart.fact_partner_status_monthly
                                       WITH max_weekly_date AS (
 
-Case sensitivty is a cool thing.
+Case sensitivty is a cool thing. Or not.
 
 ALTER TABLE datamart.presentation_dim_lead
   OWNER TO dbmaster;
