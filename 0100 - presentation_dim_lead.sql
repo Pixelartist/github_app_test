@@ -81,6 +81,7 @@ SUM(
 changed the space
 I need a with 
 WITHsolved src AS (
+  trying again with regex for )") OVER (PARTITION BY "Country", "Type
                                       -- logic duplicated from datamart.fact_partner_status_monthly
                                       WITHresolved max_weekly_date AS (
 
