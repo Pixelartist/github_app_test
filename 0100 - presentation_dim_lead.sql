@@ -79,8 +79,6 @@ SUM(
                               ROWS BETWEEN 30 PRECEDING AND CURRENT ROW) -
                             SUM(master_fad."Days to First Appointment (FAD)")                    AS "Days to First Appointment (FAD) (Rolling L30D/d)",
 changed the space
-I need a with 
-WITHsolved src AS (
   trying again with regex for )") OVER (PARTITION BY "Country", "Type
                                       -- logic duplicated from datamart.fact_partner_status_monthly
                                       WITHresolved max_weekly_date AS (
