@@ -73,14 +73,13 @@ CREATE OR REPLACE VIEW datamart.presentation_dim_lead
        lead.responsiblesubteam__c                AS "Responsible Subteam (Lead)"
 FROM datamart.dim_lead lead);
 
+
 SUM(
-                              master_fad."Days to First Appointment (FAD)") OVER (PARTITIONparty BY "Country", "Type" ORDER BY "Date" ASC
+                              master_fad."Days to First Appointment (FAD)") OVER (PARTITION BY "Country", "Type" ORDER BY "Date" ASC
                               ROWS BETWEEN 30 PRECEDING AND CURRENT ROW) -
                             SUM(master_fad."Days to First Appointment (FAD)")                    AS "Days to First Appointment (FAD) (Rolling L30D/d)",
-
-
-
-WITHsolved src AS (
+changed the space
+  trying again with regex for )") OVER (PARTITION BY "Country", "Type
                                       -- logic duplicated from datamart.fact_partner_status_monthly
                                       WITHresolved max_weekly_date AS (
 

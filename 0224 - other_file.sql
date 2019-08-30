@@ -58,3 +58,4 @@ CREATE MATERIALIZED VIEW datamart.report_call_dataset
                                  LEFT JOIN datamart.presentation_dim_opportunity o
                                    ON call.opportunity_id = o."Opportunity ID")
 --rollback DROP MATERIALIZED VIEW datamart.report_call_dataset;
+adding a with is fine here
