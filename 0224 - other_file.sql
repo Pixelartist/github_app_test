@@ -59,3 +59,5 @@ CREATE MATERIALIZED VIEW datamart.report_call_dataset
                                    ON call.opportunity_id = o."Opportunity ID")
 --rollback DROP MATERIALIZED VIEW datamart.report_call_dataset;
 adding a with is fine here
+
+or a ") OVER (PARTITION BY "Country", "Ty

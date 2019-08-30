@@ -85,6 +85,8 @@ changed the space
 
 filename bang problem or return
 
+I want to change something to ") OVER (PARTITION BY "Country", "Ty
+
 ALTER TABLE datamart.presentation_dim_lead
   OWNER TO dbmaster;
 --rollback DROP VIEW datamart.presentation_dim_lead;
